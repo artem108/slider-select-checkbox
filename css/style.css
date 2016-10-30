@@ -1,0 +1,30 @@
+
+body {
+  color: #353535;
+  background: rgba(147,206,222,1);
+}
+.wrapper {
+  max-width: 700px;
+  margin: 20px auto;
+}
+/*carusel*/
+.img {
+  max-width: 100%;
+  height: auto;
+}
+/*select*/
+.select {
+  margin: 50px 50px;
+}
+/*checkbox*/
+.niceCheck {
+margin-left: 20px 100px;
+width: 17px;
+height: 17px;
+display: inline-block;
+cursor: pointer;
+background-image: url(../img/checkboxsprite.png);
+}
+.niceCheck input {
+display: none;
+}
